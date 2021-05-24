@@ -1,0 +1,15 @@
+com\halo\zhttp\BasicHttpUtils.class
+com\halo\zhttp\AdvanceHttpUtils.class
+com\halo\zhttp\assembler\AuthorizationType.class
+com\halo\zhttp\HttpUtils.class
+com\halo\zhttp\HttpUtilsException.class
+com\halo\zhttp\assembler\RequestBodyAssembler.class
+com\halo\zhttp\utils\UtilsException.class
+com\halo\zhttp\assembler\AssemblerException.class
+com\halo\zhttp\utils\CommonUtils.class
+com\halo\zhttp\assembler\AuthorizationHeaderAssembler$1.class
+com\halo\zhttp\assembler\AuthorizationHeaderAssembler.class
+com\halo\zhttp\assembler\FormDataAssembler.class
+com\halo\zhttp\assembler\AssemblyLine.class
+com\halo\zhttp\assembler\HttpRequestAssembler.class
+com\halo\zhttp\utils\CommonUtils$1.class
