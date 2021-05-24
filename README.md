@@ -53,7 +53,9 @@ zhttp还提供了发送post请求、下载文件、发送带Authorization Header
 
 1.1 下载“zjson-1.7.jar”到本地（下载地址：https://github.com/junior9919/zjson/releases/download/1.7/zjson-1.7.jar）；
 	
-1.2 用命令“mvn install:install-file -Dfile=D:\idea-workspace\zjson\target\zjson-1.7.jar -DgroupId=com.halo -DartifactId=zjson -Dversion=1.7 -Dpackaging=jar”将zjson安装到本地maven仓库；
+1.2 用命令将zjson安装到本地maven仓库；
+
+    mvn install:install-file -Dfile=D:\idea-workspace\zjson\target\zjson-1.7.jar -DgroupId=com.halo -DartifactId=zjson -Dversion=1.7 -Dpackaging=jar
 	
 1.3 在pom.xml文件中加入引用（在build-pluginManagement-plugins小节，如果已有maven-install-plugin就不需要再加了）：
 	
@@ -80,9 +82,11 @@ zhttp还提供了发送post请求、下载文件、发送带Authorization Header
     </dependency>
     <!-- json-lib and utils dependencies -->
 		
-1.5 下载zhttp-2.3.jar到本地（下载地址：https://github.com/junior9919/zjson/releases/download/2.3/zhttp-2.3.jar）；
+1.5 下载zhttp-2.3.jar到本地（下载地址：https://github.com/junior9919/zhttp/releases/download/2.3/zhttp-2.3.jar）；
 	
-1.6 用命令“mvn install:install-file -Dfile=D:\idea-workspace\zhttp\target\zhttp-2.3.jar -DgroupId=com.halo -DartifactId=zhttp -Dversion=2.3 -Dpackaging=jar”将zhttp安装到本地maven仓库；
+1.6 用以下命令将zhttp安装到本地maven仓库；
+
+    mvn install:install-file -Dfile=D:\idea-workspace\zhttp\target\zhttp-2.3.jar -DgroupId=com.halo -DartifactId=zhttp -Dversion=2.3 -Dpackaging=jar
 	
 1.7 在pom.xml文件中加入以下依赖（在dependencies小节）：
 	
